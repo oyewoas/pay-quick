@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "jane",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Jane Doe",
+      "email": "jane@example.com"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Admin User",
+      "email": "admin@example.com"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2025-10-08T10:12:00Z",
+      "description": "Coffee Shop",
+      "amount": 4.5,
+      "type": "debit"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "date": "2025-10-08T12:45:00Z",
+      "description": "Salary Payment",
+      "amount": 2000,
+      "type": "credit"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "date": "2025-10-08T12:45:00Z",
+      "description": "Salary Payment",
+      "amount": 2000,
+      "type": "credit"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "date": "2025-10-07T15:30:00Z",
+      "description": "Book Store",
+      "amount": 25,
+      "type": "debit"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "date": "2025-10-08T09:30:00Z",
+      "description": "Restaurant",
+      "amount": 50,
+      "type": "debit"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "date": "2025-10-07T18:20:00Z",
+      "description": "Freelance Project",
+      "amount": 500,
+      "type": "credit"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "date": "2025-10-06T14:00:00Z",
+      "description": "Gym Membership",
+      "amount": 75,
+      "type": "debit"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "date": "2025-10-06T09:00:00Z",
+      "description": "Online Course",
+      "amount": 100,
+      "type": "debit"
+    }
+  ],
+  "tokens": [
+    {
+      "token": "amFuZToxNzYwMDg0NjIyNDM5",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjg1NTIzMDk3",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjg3MjkxMzAy",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjg3Mzg1MzUw",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjg5MjM3NzA4",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjkwNzk3ODc0",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjkyODY5NDcz",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjkzMDQwMzY3",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0NDQ1OTA2",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0NDgwMjE3",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0NTUyMDA2",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0NTkwNTkx",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0NzAzMTM3",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0ODQxMTIx",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0ODg1Mjcx",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMjk0OTQ1OTc2",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMzAwNzI2NTc2",
+      "userId": 1
+    },
+    {
+      "token": "amFuZToxNzYwMzAxNjUxOTAy",
+      "userId": 1
+    }
+  ]
+}
