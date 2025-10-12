@@ -11,6 +11,7 @@ The repository includes screenshot placeholders under `public/screenshots/`
 - `public/screenshots/homepage.png` — Home screen
 - `public/screenshots/signinpage.png` — Login screen
 - `public/screenshots/dashboardpage.png` — Dashboard (profile + transactions)
+- `public/screenshots/notfoundpage.png` — Not Found screen
 
 Embedded screenshots:
 
@@ -19,6 +20,8 @@ Embedded screenshots:
 ![Login](/public/screenshots/signinpage.png)
 
 ![Dashboard](/public/screenshots/dashboardpage.png)
+
+![Not Found](/public/screenshots/notfoundpage.png)
 
 ---
 
