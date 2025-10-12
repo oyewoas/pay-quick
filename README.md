@@ -124,10 +124,6 @@ Testing
 
 - Vitest and React Testing Library are used for unit and component tests. Tests are configured to run in a Vite-native environment (jsdom).
 
-Mocking approach for tests
-
-- For local development the mock API runs via `json-server`. For unit/component tests, consider using MSW (Mock Service Worker) to simulate network responses without starting the server.
-
 ---
 
 ## Where to look in the code
