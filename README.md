@@ -48,7 +48,7 @@ Embedded screenshots:
 npm install
 ```
 
-1. Start the mock API server (open a separate terminal)
+2. Start the mock API server (open a separate terminal)
 
 ```bash
 npm run mock-server
@@ -56,7 +56,7 @@ npm run mock-server
 
 The mock API runs on [http://localhost:3001](http://localhost:3001). It is implemented in `server.ts` and reads `mock/db.json` for data.
 
-1. Start the frontend development server
+3. Start the frontend development server
 
 ```bash
 npm run dev
