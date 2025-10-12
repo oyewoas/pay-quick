@@ -106,7 +106,7 @@ Protected endpoints expect an `Authorization: Bearer <token>` header. See `mock/
 
 State management: Redux Toolkit
 
-- Redux Toolkit is used to manage global state (authentication, profile and transactions). The toolkit reduces boilerplate and provides strong TypeScript ergonomics. Auth state includes a token and user object. The token is mirrored to `localStorage` so the user remains signed in across page reloads.
+- Redux Toolkit is used to manage global state (authentication, profile and transactions). The toolkit reduces boilerplate and provides strong TypeScript support. Auth state includes a token and user object. The token is mirrored to `localStorage` so the user remains signed in across page reloads.
 
 Data fetching: RTK(Redux Toolkit) Query
 
