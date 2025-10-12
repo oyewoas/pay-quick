@@ -162,7 +162,6 @@ This section highlights important implementation details and developer convenien
 
 - Tests and test setup
   - Vitest is configured as the test runner. The test environment is `jsdom` and `@testing-library/jest-dom` is used for DOM assertions.
-  - Consider adding MSW if you want network-level testing without running `server.ts` during test runs.
 
 - Quick dev tips
   - To reset mock data tokens, edit `mock/db.json` or simply restart `server.ts` after modifying the file.
