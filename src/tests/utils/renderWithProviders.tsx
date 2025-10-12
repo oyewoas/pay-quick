@@ -33,7 +33,7 @@ export function createTestStore(preloadedState?: Partial<RootState>) {
   });
 }
 
-// 🧪 Helper to render components with Redux + Router context
+// Helper to render components with Redux + Router context
 export function renderWithProviders(
   ui: React.ReactElement,
   {
